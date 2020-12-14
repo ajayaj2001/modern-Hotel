@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/modern-Hotel/static/css/main.b36f52f6.chunk.css",
+    "main.js": "/modern-Hotel/static/js/main.f28207bf.chunk.js",
+    "main.js.map": "/modern-Hotel/static/js/main.f28207bf.chunk.js.map",
+    "runtime-main.js": "/modern-Hotel/static/js/runtime-main.928c6728.js",
+    "runtime-main.js.map": "/modern-Hotel/static/js/runtime-main.928c6728.js.map",
+    "static/js/2.73c997f6.chunk.js": "/modern-Hotel/static/js/2.73c997f6.chunk.js",
+    "static/js/2.73c997f6.chunk.js.map": "/modern-Hotel/static/js/2.73c997f6.chunk.js.map",
+    "index.html": "/modern-Hotel/index.html",
+    "static/css/main.b36f52f6.chunk.css.map": "/modern-Hotel/static/css/main.b36f52f6.chunk.css.map",
+    "static/js/2.73c997f6.chunk.js.LICENSE.txt": "/modern-Hotel/static/js/2.73c997f6.chunk.js.LICENSE.txt",
+    "static/media/Detail.scss": "/modern-Hotel/static/media/chevron-thin-right.288fa9d8.svg",
+    "static/media/hotel-1.b766cfcb.jpg": "/modern-Hotel/static/media/hotel-1.b766cfcb.jpg",
+    "static/media/hotel-2.174fcb5d.jpg": "/modern-Hotel/static/media/hotel-2.174fcb5d.jpg",
+    "static/media/hotel-3.710a5ec7.jpg": "/modern-Hotel/static/media/hotel-3.710a5ec7.jpg",
+    "static/media/sprite.5698ce6b.svg": "/modern-Hotel/static/media/sprite.5698ce6b.svg",
+    "static/media/user.4859315f.jpg": "/modern-Hotel/static/media/user.4859315f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.928c6728.js",
+    "static/js/2.73c997f6.chunk.js",
+    "static/css/main.b36f52f6.chunk.css",
+    "static/js/main.f28207bf.chunk.js"
+  ]
+}
