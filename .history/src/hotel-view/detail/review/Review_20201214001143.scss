@@ -1,0 +1,39 @@
+.review {
+    background-color: #fff;
+    box-shadow: var(--shadow-light);
+    padding: 3rem;
+    margin-bottom: 3.5rem;
+    &__text {
+        margin-bottom: 2rem;
+    }
+    &__user {
+        display: flex;
+        align-items: center;
+    }
+    &__user-box {
+        padding: 0 1.5rem;
+    }
+    &__user-name {
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    &__user-date {
+        font-size: 1rem;
+        color: var(--color-gray-dark-3);
+    }
+    &__photo {
+        height: 4.5rem;
+        width: 4.5rem;
+        border-radius: 50%;
+    }
+    &__rating {
+        margin-left: auto;
+        font-size: 2rem;
+        color: var(--color-primary);
+        font-weight: 300;
+    }
+    &::before {
+        content: "";
+    }
+}

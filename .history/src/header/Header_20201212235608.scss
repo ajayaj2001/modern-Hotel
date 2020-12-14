@@ -1,0 +1,32 @@
+.header {
+    height: 7rem;
+    background-color: #fff;
+    border-bottom: var(--color-gray-light-2);
+}
+.logo {
+    height: 3.25rem;
+}
+.search {
+    &__input {
+    }
+    &__button {
+    }
+    &__icon {
+        height: 3.25rem;
+    }
+}
+
+.user-nav {
+    &__icon-box {
+    }
+    &__icon {
+    }
+    &__notification {
+    }
+    &__user {
+    }
+    &__user-photo {
+    }
+    &__user-name {
+    }
+}

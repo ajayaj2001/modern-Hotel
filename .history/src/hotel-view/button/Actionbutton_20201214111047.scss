@@ -1,0 +1,49 @@
+.cta {
+    padding: 3.5rem 5rem;
+    text-align: center;
+    &__book-now {
+        text-transform: uppercase;
+        font-size: 2rem;
+        font-weight: 300;
+        margin-bottom: 2.5rem;
+    }
+}
+.btn {
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    border-radius: 10rem;
+    border: none;
+    overflow: hidden;
+    background-image: linear-gradient(to right, var(--color-primary-light), var(--color-primary-dark));
+    color: #fff;
+    & > * {
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        transition: all 0.2s;
+    }
+    &:hover {
+        background-image: linear-gradient(to left, var(--color-primary-light), var(--color-primary-dark));
+    }
+    &__visible {
+        padding: 2rem 7.5rem;
+    }
+    &__invisible {
+        position: absolute;
+        left: 0;
+        top: -100%;
+        padding: 2rem 0;
+    }
+    &:hover &__visible {
+        transform: translateY(100%);
+    }
+    &:hover &__invisible {
+        top: 0;
+    }
+    &:focus {
+        outline: none;
+        transform: scale(1.05);
+    }
+}

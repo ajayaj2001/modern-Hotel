@@ -1,0 +1,25 @@
+.gallery {
+    display: flex;
+    &__photo {
+        width: 100%;
+        display: block;
+    }
+}
+
+.overview {
+    &__heading {
+    }
+    &__stars {
+    }
+    &__icon-star,
+    &__icon-location {
+    }
+    &__location {
+    }
+    &__rating {
+        &-average {
+        }
+        &-count {
+        }
+    }
+}

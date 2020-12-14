@@ -1,0 +1,15 @@
+.hotelview {
+    flex: 1;
+    height: 80rem;
+}
+.detail {
+    display: flex;
+}
+.description {
+    flex: 0 0 60%;
+    background-color: orangered;
+}
+.review {
+    flex: 1;
+    background-color: aqua;
+}

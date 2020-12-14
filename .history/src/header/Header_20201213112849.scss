@@ -1,0 +1,40 @@
+.header {
+    height: 7rem;
+    background-color: #fff;
+    border-bottom: var(--color-gray-light-2);
+    display: flex;
+}
+.logo {
+    height: 3.25rem;
+}
+.search {
+    background-color: aqua;
+    &__input {
+    }
+    &__button {
+    }
+    &__icon {
+        height: 3rem;
+        width: 2rem;
+    }
+}
+
+.user-nav {
+    background-color: rebeccapurple;
+    &__icon-box {
+    }
+    &__icon {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    &__notification {
+    }
+    &__user {
+    }
+    &__user-photo {
+        height: 3.75rem;
+        border-radius: 50%;
+    }
+    &__user-name {
+    }
+}

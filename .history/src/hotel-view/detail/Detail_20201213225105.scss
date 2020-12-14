@@ -1,0 +1,28 @@
+.detail {
+    display: flex;
+    padding: 4.5rem;
+    background-color: var(--color-gray-light-1);
+    border-bottom: var(--line);
+}
+.description {
+    flex: 0 0 60%;
+    background-color: #fff;
+    margin-right: 4.5rem;
+    box-shadow: var(--shadow-light);
+    padding: 3rem;
+    font-size: 1.4rem;
+}
+.review {
+    flex: 1;
+    background-color: aqua;
+}
+.paragraph:not(:last-of-type) {
+    margin-bottom: 2rem;
+}
+.list {
+    margin: 3rem 0;
+    list-style: none;
+    padding: 3rem 0;
+    border-top: (--line);
+    border-bottom: (--line);
+}

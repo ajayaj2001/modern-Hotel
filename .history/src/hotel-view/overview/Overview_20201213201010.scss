@@ -1,0 +1,32 @@
+.gallery {
+    display: flex;
+    &__photo {
+        width: 100%;
+        display: block;
+    }
+}
+
+.overview {
+    display: flex;
+    border-bottom: 6px solid var(--color-gray-light-2);
+    height: 3rem;
+    &__heading {
+    }
+    &__stars {
+        margin-right: auto;
+    }
+    &__icon-star,
+    &__icon-location {
+        width: 1.75rem;
+        height: 1.75rem;
+        fill: var(--color-primary);
+    }
+    &__location {
+    }
+    &__rating {
+        &-average {
+        }
+        &-count {
+        }
+    }
+}
